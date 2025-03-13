@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>戴晓奕 - 个人简历</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="images/profile_photo.jpg" alt="戴晓奕" id="avatar">
+                </div>
+                <div class="profile-content">
+                    <h1>戴晓奕</h1>
+                    <p class="title">求职意向：<span id="job-title">职位名称</span></p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> <span id="email">邮箱地址</span></p>
+                        <p><i class="fas fa-phone"></i> <span id="phone">电话号码</span></p>
+                        <p><i class="fas fa-map-marker-alt"></i> <span id="location">所在地</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#education">教育背景</a></li>
+                <li><a href="#experience">工作经验</a></li>
+                <li><a href="#skills">专业技能</a></li>
+                <li><a href="#projects">项目经验</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section id="about">
+                <h2>关于我</h2>
+                <div class="section-content">
+                    <p id="about-content">这里是个人简介，请根据简历内容填写。</p>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>教育背景</h2>
+                <div class="section-content" id="education-list">
+                    <div class="education-item">
+                        <h3>学校名称</h3>
+                        <p class="period">2018 - 2022</p>
+                        <p class="degree">学位 - 专业</p>
+                        <p class="description">相关描述和成就</p>
+                    </div>
+                    <!-- 更多教育经历将通过JavaScript动态添加 -->
+                </div>
+            </section>
+
+            <section id="experience">
+                <h2>工作经验</h2>
+                <div class="section-content" id="experience-list">
+                    <div class="experience-item">
+                        <h3>公司名称</h3>
+                        <p class="position">职位名称</p>
+                        <p class="period">2022 - 至今</p>
+                        <ul class="responsibilities">
+                            <li>工作职责描述1</li>
+                            <li>工作职责描述2</li>
+                            <li>工作职责描述3</li>
+                        </ul>
+                    </div>
+                    <!-- 更多工作经验将通过JavaScript动态添加 -->
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>专业技能</h2>
+                <div class="section-content">
+                    <div class="skills-container" id="skills-list">
+                        <div class="skill-category">
+                            <h3>编程语言</h3>
+                            <ul>
+                                <li>技能1</li>
+                                <li>技能2</li>
+                                <li>技能3</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>工具与框架</h3>
+                            <ul>
+                                <li>技能1</li>
+                                <li>技能2</li>
+                                <li>技能3</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>语言能力</h3>
+                            <ul>
+                                <li>中文（母语）</li>
+                                <li>英语（熟练）</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>项目经验</h2>
+                <div class="section-content" id="projects-list">
+                    <div class="project-item">
+                        <h3>项目名称</h3>
+                        <p class="period">2022</p>
+                        <p class="role">担任角色</p>
+                        <p class="description">项目描述</p>
+                        <ul class="achievements">
+                            <li>成就/贡献1</li>
+                            <li>成就/贡献2</li>
+                        </ul>
+                    </div>
+                    <!-- 更多项目经验将通过JavaScript动态添加 -->
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>联系方式</h2>
+                <div class="section-content">
+                    <div class="contact-container">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p id="contact-email">邮箱地址</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p id="contact-phone">电话号码</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p id="contact-location">所在地</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <p id="contact-linkedin">LinkedIn链接</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 戴晓奕. 保留所有权利。</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
